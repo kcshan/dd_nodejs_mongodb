@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h2>这是ejs的后台模板引擎-注册</h2>
+  <h3><%=msg%></h3>
+  <ul>
+    <%for(var i=0;i<list.length;i++) {%>
+      <li><%=list[i]%></li>
+    <%}%>
+  </ul>
+  <a href="/login">去登录页面</a>
+  <%-html_data%>
+</body>
+</html>
